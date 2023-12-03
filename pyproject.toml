@@ -1,0 +1,22 @@
+[project]
+name = "advmypackage"
+version = "0.0.1"
+authors = [
+  { name="Vikash Singh", email="glovesdown@gmail.com" },
+]
+description = "Py package for published"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://dev.azure.com/imvikashsingh/_git/AdvMyPythonApp"
+
+[build-system]
+requires = ["setuptools>=42",
+               "wheel"]
+build-backend = "setuptools.build_meta"
