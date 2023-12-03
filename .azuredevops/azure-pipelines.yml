@@ -25,7 +25,7 @@ steps:
 
 - task: TwineAuthenticate@1
   inputs:
-    artifactFeed: advmypythonappfeed
+    artifactFeed: mypythonappfeed
 
 # Use command line script to 'twine upload', use -r to pass the repository name and --config-file to pass the environment variable set by the authenticate task.
 - script: |
