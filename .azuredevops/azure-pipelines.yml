@@ -29,4 +29,4 @@ steps:
 
 # Use command line script to 'twine upload', use -r to pass the repository name and --config-file to pass the environment variable set by the authenticate task.
 - script: |
-    python -m twine upload -r "advmypythonappfeed2" --config-file $(PYPIRC_PATH) dist/*
+    python -m twine upload -r "advmypythonappfeed" --config-file $(PYPIRC_PATH) dist/*
